@@ -30,30 +30,21 @@ Bu botu çalıştırmak için aşağıdaki programlara ihtiyacınız olacak:
    ```
 
 ## Yapılandırma
-
-1. **config.json Dosyasını Oluşturun**:
-   Proje dizininde `config.json` adlı bir dosya oluşturun ve aşağıdaki içeriği ekleyin:
+**config.json Dosyasını Düzenleyin**:
+   Proje dizininde `config.json` adlı bir dosya zaten var. Onu düzenleyebilirsiniz.
+   Aşağıda, `config.json` dosyasının örneği bulunmakta:
 
    ```json
    {
-     "token": "YOUR_BOT_TOKEN",
+     "token": "BOT TOKENİNİZ BURAYA",
      "prefix": "!",
-     "welcome_channel_id": "WELCOME_CHANNEL_ID",
+     "welcome_channel_id": "HOŞGELDİN KANAL İDSİ",
      "welcome_message": "Hoşgeldin %user%! Sunucumuza katıldığın için teşekkürler. Şu anda %server% sunucusunda %member% kişiyiz.",
-     "role_on_join_id": "ROLE_ON_JOIN_ID",
-     "registered_role_id": "REGISTERED_ROLE_ID",
-     "log_channel_id": "LOG_CHANNEL_ID"
+     "role_on_join_id": "KAYITSIZ ROLÜ İDSİ",
+     "registered_role_id": "KAYITLI ROLÜ İDSİ",
+     "log_channel_id": "KAYIT LOGLARI KANAL İDSİ"
    }
    ```
-
-2. **config.json Değerlerini Güncelleyin**:
-   - `token`: Botunuzun Discord API token'ı.
-   - `prefix`: Botunuzun komut ön eki.
-   - `welcome_channel_id`: Hoş geldin mesajlarının gönderileceği kanalın ID'si.
-   - `welcome_message`: Yeni üyeler için hoş geldin mesajı. `%user%`, `%server%`, `%member%` ve `%inviter%` değişkenlerini kullanabilirsiniz.
-   - `role_on_join_id`: Yeni katılan üyelere verilecek rolün ID'si.
-   - `registered_role_id`: Kayıtlı üyelere verilecek rolün ID'si.
-   - `log_channel_id`: Kayıt işlemlerinin loglanacağı kanalın ID'si.
 
 ## Değişkenler
 
@@ -66,10 +57,6 @@ Bu botu çalıştırmak için aşağıdaki programlara ihtiyacınız olacak:
 
 ## Botun Çalıştırılması
 
-1. **bot.py Dosyasını Oluşturun**:
-   Proje dizininde `bot.py` adlı bir dosya oluşturun ve bot kodunu bu dosyaya ekleyin.
-
-2. **Botu Çalıştırın**:
    Terminal veya komut istemcisini açın ve proje dizinine gidin. Ardından aşağıdaki komutu girin:
 
    ```sh
@@ -77,6 +64,3 @@ Bu botu çalıştırmak için aşağıdaki programlara ihtiyacınız olacak:
    ```
 
 Botunuz şimdi çalışıyor olmalı ve belirtilen işlevleri yerine getirmelidir.
-```
-
-Bu README dosyasını doğrudan kopyalayıp kullanabilirsiniz. Herhangi bir sorunuz veya sorununuz olursa, lütfen bana bildirin!
