@@ -1,6 +1,3 @@
-Anladım, README dosyasını doğrudan kopyalayıp kullanabileceğiniz şekilde kod bloğu olarak yazıyorum:
-
-```markdown
 # Discord Bot Projesi
 
 Bu proje, belirli özelliklere sahip bir Discord botu oluşturmayı amaçlamaktadır. Bot, yeni katılan üyelere hoş geldin mesajı gönderir, belirli bir rol verir ve kayıt komutları kullanarak üyeleri kaydeder. Ayrıca, kayıt sayılarını kaydeder ve bot yeniden başlatıldığında bu bilgileri korur.
