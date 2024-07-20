@@ -63,4 +63,5 @@ Bu botu çalıştırmak için aşağıdaki programlara ihtiyacınız olacak:
    python bot.py
    ```
 
-Botunuz şimdi çalışıyor olmalı ve belirtilen işlevleri yerine getirmelidir.
+Botunuz hayırlı olsun. Daha fazla özellik olan botlarımın örnekleri aşağıda bulunmaktadır:
+
